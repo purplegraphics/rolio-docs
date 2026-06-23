@@ -1,72 +1,110 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+  "name": "Rolio",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
+  "colors": {
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6",
+    "anchors": {
+      "from": "#7C3AED",
+      "to": "#4F46E5"
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@getrolio.app"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Get started free",
+      "href": "https://getrolio.app/register"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Changelog",
+          "icon": "sparkles",
+          "href": "https://rolio.featurebase.app/changelog"
+        },
+        {
+          "anchor": "Roadmap",
+          "icon": "map",
+          "href": "https://rolio.featurebase.app/roadmap"
+        },
+        {
+          "anchor": "Community",
+          "icon": "comments",
+          "href": "https://rolio.featurebase.app"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "API Reference",
+        "url": "api-reference"
+      }
+    ],
+    "pages": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart",
+          "getting-started/create-account",
+          "getting-started/add-members",
+          "getting-started/invite-admins",
+          "getting-started/customize-directory"
+        ]
+      },
+      {
+        "group": "Admin Guide",
+        "pages": [
+          "admin/magic-links",
+          "admin/email-templates",
+          "admin/public-directory",
+          "admin/groups",
+          "admin/billing"
+        ]
+      },
+      {
+        "group": "Member Guide",
+        "pages": [
+          "members/accessing-directory",
+          "members/updating-profile",
+          "members/magic-link-login"
+        ]
+      },
+      {
+        "group": "Billing & Plans",
+        "pages": [
+          "billing/plans",
+          "billing/ai-bundle",
+          "billing/faq"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "legal/privacy",
+          "legal/terms"
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://getrolio.app"
     }
   }
 }

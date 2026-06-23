@@ -1,0 +1,72 @@
+---
+title: "Email Templates"
+description: "Customize the emails Rolio sends on behalf of your organization."
+---
+
+## Overview
+
+Rolio sends emails automatically for key events (magic links, profile approvals, etc.). You can customize the subject line and body of these emails to match your organization's voice.
+
+Go to **Admin → Emails** to manage your templates.
+
+## System Emails
+
+These emails are sent automatically when specific actions occur:
+
+| Email | Trigger |
+|---|---|
+| Profile Update Request | Admin sends a magic link update request |
+| Member Directory Access | Member requests login link |
+| Admin Invitation | Admin invites a new co-admin |
+| Password Reset | Admin requests password reset |
+| Password Changed | Admin successfully resets password |
+| Update Submitted | Member submits profile update via magic link |
+| Update Approved | Admin approves a member's update |
+| Update Rejected | Admin rejects a member's update |
+| Member Added | New member added (if notify toggle enabled) |
+| Member Removed | Member removed (if notify toggle enabled) |
+
+## Editing a Template
+
+1. Click **Edit** next to any template
+2. Modify the **Subject line** and **Message body**
+3. Use **variable chips** to insert dynamic values (click to insert at cursor)
+4. Use **Email preview** to see how it looks in an inbox
+5. Click **Save changes**
+
+### Available Variables
+
+| Variable | Description |
+|---|---|
+| `{org_name}` | Your organization's name |
+| `{member_first}` | Member's first name |
+| `{member_last}` | Member's last name |
+| `{action_url}` | The magic link or action button URL |
+| `{expiry_date}` | Link expiry date |
+| `{admin_email}` | Admin's email address |
+
+## Resetting to Default
+
+Click **Reset to default** to revert any template to Rolio's built-in version.
+
+## Broadcast Emails (Pro+)
+
+Send announcements to all members or specific groups:
+
+1. Click **Compose & Send** in the Emails tab
+2. Select a template or write a custom message
+3. Choose recipients (all members or a specific group)
+4. Preview and confirm
+5. Click **Send**
+
+<Note>
+Broadcast emails require a Pro or Organization plan.
+</Note>
+
+## Plan Limits
+
+| Plan | Email Customization |
+|---|---|
+| Trial / Starter | Subject line only |
+| Pro | Full subject + body customization, broadcasts |
+| Organization | + Custom HTML editor, automated triggers |

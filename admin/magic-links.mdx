@@ -1,0 +1,55 @@
+---
+title: "Magic Links"
+description: "Let members update their own profiles with a personalized, no-login link."
+---
+
+## What are Magic Links?
+
+A magic link is a personalized, one-time URL sent to a member's email address. When clicked, it opens a pre-filled form where they can review and update their profile — no login or password required.
+
+This is Rolio's core feature for keeping your directory accurate without burdening admin staff.
+
+## Sending a Magic Link
+
+### To a Single Member
+
+1. Go to the member's profile in the Directory
+2. Click **Send update request**
+3. Choose whether to **auto-approve** updates or send them to the approval queue
+4. Click **Send Link**
+
+The member receives an email with their personal link within seconds.
+
+### To All Members (Bulk Send)
+
+1. Go to **Admin → Magic Links**
+2. In the **Send Update Requests** section, select:
+   - **All members** — sends to every member with an email address
+   - A specific group
+3. Toggle **Auto-approve updates** if desired
+4. Click **Send Update Requests**
+5. Confirm the number of recipients
+
+<Warning>
+Bulk sends are capped at 200 members per request.
+</Warning>
+
+## The Approval Queue
+
+When a member submits an update, it appears in the **Pending Updates** queue in **Admin → Magic Links**.
+
+Each update shows:
+- Member name and email
+- When it was submitted
+- A diff of what changed (old value → new value in green)
+- Approve and Reject buttons
+
+### Auto-Approve
+
+Toggling **Auto-approve updates** applies changes immediately to the member's record without admin review. Use this for trusted members or annual directory updates.
+
+## Magic Link Expiry
+
+- Update links expire after **7 days**
+- Login links (member directory access) expire after **24 hours**
+- Expired links show a clear message directing members to request a new one
