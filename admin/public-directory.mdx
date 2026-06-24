@@ -5,16 +5,24 @@ description: "Share your directory with members and the public."
 
 ## Your Public Directory URL
 
-Every Rolio organization gets a public directory at:
-`https://www.getrolio.app/view/[your-slug]`
+Every Rolio organization gets a public directory at: `https://www.getrolio.app/view/[your-slug]`
 
-You can find and share this link from **Admin → Overview**.
+Find and share this link from **Admin → Overview**.
 
 ## Visibility Settings
 
-Control what different audiences can see in **Admin → Settings → Public Directory**.
+Control what visitors see in **Admin → Settings → Public Directory**:
 
-See [Customize Your Directory](/getting-started/customize-directory) for full details on each setting.
+| Setting | Default | Description |
+| --- | --- | --- |
+| Require login to view | Off | Only authenticated members can view |
+| Show member bio | On | Display member's about text |
+| Show social links | On | Display social media links |
+| Show groups | On | Display group memberships |
+| Show birthday | Off | Month and day only, never birth year |
+| Show phone number | Off | ⚠️ Enable only with member consent |
+| Show email address | Off | ⚠️ Enable only with member consent |
+| Show address | Off | ⚠️ Carefully consider privacy |
 
 ## Member Login
 
@@ -23,16 +31,12 @@ Members can access the directory by verifying their email:
 1. Member visits your public directory URL
 2. Clicks **Member? Sign in**
 3. Enters their email address
-4. Receives a one-time access link
-5. Clicks the link → authenticated for 30 days
-
-<Note>
-Member login only works if the member's email address exists in your directory. This prevents unauthorized access.
-</Note>
+4. Receives a one-time access link (valid 24 hours)
+5. Authenticated for 30 days
 
 ## Embed Widget
 
-Add your directory to your existing website with an iframe:
+Add your directory to your existing website:
 
 ```html
 <iframe 
@@ -45,5 +49,3 @@ Add your directory to your existing website with an iframe:
 ```
 
 Copy this code from **Admin → Settings → Embed Directory**.
-
-The embed respects all your public visibility settings.

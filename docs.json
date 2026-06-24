@@ -30,25 +30,6 @@
     }
   },
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Changelog",
-          "icon": "sparkles",
-          "href": "https://rolio.featurebase.app/changelog"
-        },
-        {
-          "anchor": "Roadmap",
-          "icon": "map",
-          "href": "https://rolio.featurebase.app/roadmap"
-        },
-        {
-          "anchor": "Community",
-          "icon": "comments",
-          "href": "https://rolio.featurebase.app"
-        }
-      ]
-    },
     "tabs": [
       {
         "tab": "API Reference",
@@ -100,11 +81,54 @@
           "legal/terms"
         ]
       }
+    ],
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Admin Guide",
+        "pages": [
+          "admin/magic-links",
+          "admin/email-templates",
+          "admin/public-directory",
+          "admin/groups",
+          "admin/billing"
+        ]
+      },
+      {
+        "group": "Member Guide",
+        "pages": [
+          "members/accessing-directory",
+          "members/updating-profile",
+          "members/magic-link-login"
+        ]
+      },
+      {
+        "group": "Billing & Plans",
+        "pages": [
+          "billing/plans",
+          "billing/ai-bundle",
+          "billing/faq"
+        ]
+      },
+      {
+        "group": "Legal",
+        "pages": [
+          "legal/privacy",
+          "legal/terms"
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
       "website": "https://getrolio.app"
     }
-  }
+  },
+  "description": "AI-native member directory for churches, nonprofits, clubs, associations, and law firms."
 }
