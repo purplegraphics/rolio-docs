@@ -1,4 +1,4 @@
-{
+ {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Rolio",
@@ -10,8 +10,8 @@
   "colors": {
     "primary": "#7C3AED",
     "light": "#A78BFA",
-    "dark": "#5B21B6",
-      },
+    "dark": "#5B21B6"
+  },
   "navbar": {
     "links": [
       {
@@ -26,59 +26,7 @@
     }
   },
   "navigation": {
-    "tabs": [
-      {
-        "tab": "API Reference",
-        "url": "api-reference"
-      }
-    ],
     "pages": [
-      {
-        "group": "Get Started",
-        "pages": [
-          "introduction",
-          "quickstart",
-          "getting-started/create-account",
-          "getting-started/add-members",
-          "getting-started/invite-admins",
-          "getting-started/customize-directory"
-        ]
-      },
-      {
-        "group": "Admin Guide",
-        "pages": [
-          "admin/magic-links",
-          "admin/email-templates",
-          "admin/public-directory",
-          "admin/groups",
-          "admin/billing"
-        ]
-      },
-      {
-        "group": "Member Guide",
-        "pages": [
-          "members/accessing-directory",
-          "members/updating-profile",
-          "members/magic-link-login"
-        ]
-      },
-      {
-        "group": "Billing & Plans",
-        "pages": [
-          "billing/plans",
-          "billing/ai-bundle",
-          "billing/faq"
-        ]
-      },
-      {
-        "group": "Legal",
-        "pages": [
-          "legal/privacy",
-          "legal/terms"
-        ]
-      }
-    ],
-    "groups": [
       {
         "group": "Get Started",
         "pages": [
