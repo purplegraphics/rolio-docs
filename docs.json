@@ -11,11 +11,7 @@
     "primary": "#7C3AED",
     "light": "#A78BFA",
     "dark": "#5B21B6",
-    "anchors": {
-      "from": "#7C3AED",
-      "to": "#4F46E5"
-    }
-  },
+      },
   "navbar": {
     "links": [
       {
